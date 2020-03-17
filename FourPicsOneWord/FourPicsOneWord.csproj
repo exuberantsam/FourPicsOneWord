@@ -40,6 +40,9 @@
     <Reference Include="Bunifu.UI.WinForms.BunifuButton">
       <HintPath>..\..\..\..\C# Libraries\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>..\..\..\..\C# Libraries\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuProgressBar">
       <HintPath>..\..\..\..\C# Libraries\Bunifu UI WinForms 1.11.5.1\Bunifu.UI.WinForms.BunifuProgressBar.dll</HintPath>
     </Reference>

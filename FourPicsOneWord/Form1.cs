@@ -91,7 +91,16 @@ namespace FourPicsOneWord
                 }
 
                 timer1.Stop();
-                MessageBox.Show("Time is Up!");
+                DialogResult timeup = MessageBox.Show("Level 1 Failed", "Time is Up!", MessageBoxButtons.RetryCancel, MessageBoxIcon.Information);
+
+                if (timeup == DialogResult.Retry)
+                {
+                    retryGame();
+                } else
+                {
+
+                }
+              
 
             }
             
@@ -100,7 +109,7 @@ namespace FourPicsOneWord
 
         private void resettimer_Click(object sender, EventArgs e)
         {
-                retryLetters();        
+                retryGame();        
         }
 
         private void bunifuFlatButton1_Click(object sender, EventArgs e)
@@ -224,7 +233,7 @@ namespace FourPicsOneWord
             }
         }
 
-        public void retryLetters()
+        public void retryGame()
         {
             Bunifu.UI.WinForms.BunifuButton.BunifuButton[] pictureBoxes = { box1, box2, box3, box4, box5, box6 };
 
